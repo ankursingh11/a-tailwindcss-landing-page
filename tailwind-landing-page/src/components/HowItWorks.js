@@ -8,7 +8,6 @@ const HowItWorks = () => {
       <WorkComponent step = {1}/>
       <WorkComponent step = {2}/>
       <WorkComponent step = {3}/>
-      
     </div>
   )
 }
