@@ -6,6 +6,8 @@ import Details from './components/Details';
 import CustomerStories from './components/CustomerStories';
 import Build from './components/Build';
 import Plans from './components/Plans';
+import Faq from './components/Faq';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="text-4xl font-bold">
@@ -16,6 +18,8 @@ function App() {
       <CustomerStories/>
       <Build/>
       <Plans/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }

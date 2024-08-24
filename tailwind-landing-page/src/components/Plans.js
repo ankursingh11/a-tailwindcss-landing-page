@@ -28,7 +28,7 @@ const Plans = () => {
       <div className="text-5xl">
         <div className="w-[35rem]">Choose a plan that fits your needs</div>
       </div>
-      <div className="my-10 flex gap-5 justify-around absolute">
+      <div className="my-10 flex gap-5 justify-around">
         {planCards.map((card) => <PlanCard {...card} key={card.title} />)}
       </div>
     </div>

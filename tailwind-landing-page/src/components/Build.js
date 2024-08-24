@@ -18,7 +18,7 @@ const Build = () => {
               of creating your first desktop app in just a few minutes.
             </p>
           </div>
-          <div className="text-lg bg-blue-700 rounded-lg flex justify-center content-center h-9 cursor-pointer py-1">
+          <div className="text-lg bg-blue-700 rounded-lg flex justify-center content-center h-9 cursor-pointer py-1 hover:-translate-y-1 transition">
             <FontAwesomeIcon icon={faDownload} className="relative top-1" />
             <span className="mx-3">Download ToDesktop Now</span>
           </div>
