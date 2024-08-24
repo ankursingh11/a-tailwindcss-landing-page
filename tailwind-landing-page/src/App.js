@@ -4,6 +4,8 @@ import Header from './components/Header';
 import HowItWorks from './components/HowItWorks';
 import Details from './components/Details';
 import CustomerStories from './components/CustomerStories';
+import Build from './components/Build';
+import Plans from './components/Plans';
 function App() {
   return (
     <div className="text-4xl font-bold">
@@ -12,6 +14,8 @@ function App() {
       <HowItWorks/>
       <Details/>
       <CustomerStories/>
+      <Build/>
+      <Plans/>
     </div>
   );
 }
